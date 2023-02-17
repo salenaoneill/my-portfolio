@@ -107,3 +107,23 @@ nav {
     flex-wrap: wrap;
     width: 20%;
 }
+
+@media screen and (max-width: 992px) {
+    header {
+      width: 100%;
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    nav {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      width: 25%;
+    }
+  }
+  
